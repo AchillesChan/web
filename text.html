@@ -13,7 +13,7 @@
         "max-file": "3"
 </pre>
 <p>    },<br/>
-    "insecure-registries":["<a href="ftp://192.168.56.109/8080">192.168.56.109:8080</a>"],
+    "insecure-registries":["192.168.56.109/8080"],
     "graph": "/data02/docker",<br/>
     "runtimes": {
 </p><pre>
@@ -22,11 +22,11 @@
         }
 </pre>
 <p>    },<br/>
-    "bip": "<a href="telnet://172.20.0.1">172.20.0.1</a>/16",<br/>
+    "bip": "172.20.0.1/24"
     "default-address-pools": [
 </p><pre>
         {
-            "base": "<a href="telnet://172.25.0.0">172.25.0.0</a>/16",
+            "base": "172.16.25.0",
             "size": 24
         }
 </pre>
